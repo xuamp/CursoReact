@@ -1,0 +1,908 @@
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+
+
+*{
+  font-family: 'Abel', sans-serif;
+}
+
+.WA{
+position: fixed;
+z-index: 1;
+top: 80%;
+left: 87%;
+height: 10%;
+width: 10%;
+}
+
+body{
+background-color: white;	
+margin: 0;
+
+
+}
+
+main{
+margin-top: 0;
+display: block;
+}
+
+
+.franja h5{
+text-align:center;
+font-size: 73px;
+margin: 50px;
+}
+
+.holder{
+margin: 0 auto;
+}
+
+.fotoGrande{
+width: 100%;
+height: 650px;
+display: flex;
+}
+
+.fotoGrande div.DivFG1{
+width: 70%;
+position: relative;
+}
+
+.fotoGrande div.DivFG1 img{
+width: 100%;
+height: 100%;
+filter: brightness(30%);
+opacity: 0.5;
+}
+
+.fotoGrande div.DivFG1 h2{
+color: white;
+font-size: 50px;
+position: absolute;
+top: 100px;
+border-left: 10px solid #E7C81E;
+padding-left: 5px;
+margin-left: 40px;
+animation-name: titulo2;
+animation-duration: 3s;
+animation-delay: 1s;
+animation-fill-mode: forwards;
+opacity: 0;
+}
+
+.fotoGrande div.DivFG1 p{
+color: white;
+font-size: 20px;
+position: absolute;
+top: 260px;
+margin-left: 40px;
+animation-name: titulo2;
+animation-duration: 3s;
+animation-delay: 2s;
+animation-fill-mode: forwards;
+opacity: 0;
+
+}
+
+
+.fotoGrande div.DivFG1 p.nuestrosServicios{
+color: black;
+height: 35px;
+width: 200px;
+background-color: #E7C81E;
+position: absolute;
+top: 390px;
+text-align: center;
+padding-top: 15px;
+font-size: 16px;
+font-weight: 700;
+border-radius: 0.3em;
+font-weight: 0.5;
+
+}
+
+.fotoGrande div.DivFG2{
+width: 30%;
+background-color: #E7C81E;
+padding-left: 25px;
+}
+
+.fotoGrande div.DivFG2 h3{
+font-size: 20px;
+display: inline-block;
+margin-bottom: 5px;
+animation-name: titulo2;
+animation-duration: 3s;
+animation-delay: 2s;
+animation-fill-mode: forwards;
+opacity: 0;
+}
+
+.fotoGrande div.DivFG2 p{
+font-size: 14px;
+margin-top: 0px;
+animation-name: titulo2;
+animation-duration: 3s;
+animation-delay: 2s;
+animation-fill-mode: forwards;
+opacity: 0;
+}
+
+.fotoGrande div.DivFG2 i{
+font-size: 40px;
+margin-right: 15px;
+animation-name: titulo2;
+animation-duration: 3s;
+animation-delay: 2s;
+animation-fill-mode: forwards;
+opacity: 0;
+}
+
+.DivFG-C{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 70px;
+
+}
+
+
+.cajitas {
+height: 100%;
+width: 20%;
+text-align: center;
+animation-name: titulo2;
+animation-duration: 3s;
+animation-delay: 2s;
+animation-fill-mode: forwards;
+opacity: 0;}
+
+
+.cajitas span{
+color: black;
+font-size: 30px;
+}
+
+.cajitas p{
+color: gray;
+font-size: 18px;
+}
+
+.lol{
+color: black;
+font-size: 55px;
+margin-top: 30px;
+text-decoration: unset;}
+
+.padreCajitas{
+background-color: #E6E6E6;
+display: flex;
+justify-content: space-evenly;
+}
+
+
+.nav{
+display: flex;
+align-items: center;
+height: 100px;
+width: 100%;
+background-color: #E6E6E6;
+border-bottom: 2px solid black;
+position: relative;
+}
+
+.nav a{
+ font-size: 22px;
+ text-decoration: unset;
+width: 40%;
+color: black;
+font-weight: bold;
+letter-spacing: 2px;
+text-align: center;
+}
+
+.nav i{
+font-size: 30px;
+}
+
+.enlaces{
+display: flex;
+width: 60%;
+justify-content: space-around;
+align-items: center;
+flex-wrap: wrap;
+
+}
+
+
+
+.nav img{
+height: 100px;
+}
+
+
+.cuerpo{
+width: 100%;
+height:700px;
+position: relative;
+}
+
+
+.servicios{
+text-align: center;
+margin-bottom: 80px;
+}
+
+.servicios div{
+display: inline-block;
+border: 2px solid black;
+width: 25%;
+margin-left: 10px;
+margin-right: 10px;
+height: 100%;
+border-radius: 0.5em;
+box-shadow: 0px 0px 20px gray;
+padding-bottom: 15px;
+}
+
+.servicios h2{
+text-align: center;
+font-size: 30px;
+color: black;
+}
+
+hr{
+text-align: center;
+border: 2px solid grey;
+width: 18%;
+border-radius: 1.5em;
+}
+
+
+.servicios img{
+height: 60%;
+width: 90%;
+margin-top: 20px;
+border-radius: 0.2em;
+}
+
+.servicios span{
+color: white;
+border: 1px solid black;
+background-color: #464950;
+text-align: center;
+border-radius: 0.2em;
+padding-right: 5px;
+padding-left: 5px;
+font-size: 13px;
+}
+
+.servicios a{
+text-decoration: unset;
+
+}
+
+.porque{
+display: flex;
+justify-content: center;
+text-align: left;
+background-color: #E6E6E6;
+margin-top: 50px;
+margin-bottom: 250px;
+}
+
+.porque h4{
+font-size: 48px;
+font-family: 'Abel', sans-serif;
+font-weight: 100;
+border-left: 10px double #E7C81E;
+padding-left: 20px;
+}
+
+.porque div{
+width: 28%;
+display: inline-block;
+}
+
+.lista li{
+font-size: 30px;
+font-weight: 800;
+font-family: 'Alumni Sans Pinstripe', sans-serif;
+margin-top: 10px;
+}
+
+.formulario{
+background-color: #333333;
+color: white;
+width: 30%;
+position: absolute;
+top: 0;
+left: 67%;
+height: 100%;
+border-radius: 0.5em;
+}
+
+.contacto1{
+position: relative;
+width: 100%;
+height: 600px;
+margin-bottom: 200px;
+}
+
+.contacto1 p{
+font-size: 27px;
+font-family: 'Abel', sans-serif;
+margin-left: 60px;
+width: 60%;
+
+}
+
+.contacto1 img{
+border-radius: 1em;
+margin-left: 0px;
+width: 55%;
+animation-name: desliza;
+animation-delay: 1s;
+animation-duration: 3s;
+opacity: 0;
+animation-fill-mode: forwards;
+}
+
+.formulario input{
+display: block;
+margin-left: 50px;
+font-weight: 200;
+margin-top: 5px;
+font-family: 'Abel', sans-serif;
+font-size: 30px;
+width: 65%;
+background-color: #484848;
+color: white;
+}
+
+.formulario label{
+display: block;
+margin-left: 50px;
+font-weight: 700;
+margin-top: 35px;
+font-family: 'Abel', sans-serif;
+font-size: 22px;
+}
+
+
+.formulario input.enviar{
+background-color: black;
+border-radius: 0.4em;
+color: white;
+border: 2px solid white;
+width: 30%;
+}
+
+.formulario a{
+text-decoration: unset;
+}
+
+.desplegable div{
+width: 80%;
+margin-right: auto;
+margin-left: auto;
+border-bottom: 10px double black;
+position: relative;
+height: 100px;
+text-align: center;
+margin-bottom: 150px;
+ }
+
+.desplegable p{
+  font-size: 55px;
+  animation-name: deslizaArriba;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  opacity: 0;
+  width: 80%;
+  float: left;
+}
+
+.desplegable img{
+animation-name: deslizaArriba;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-fill-mode: forwards;
+  left: 5%;
+  width: 15%;
+  opacity: 0;
+  top: 0px;
+  background-color: white;
+  border-radius: 8em;
+}
+.pie{
+width: 100%;
+position: relative;
+height: 400px;
+background-color: #E6E6E6;
+margin-top: 0px;
+display: flex;
+height: 100%;
+border-top: 2px solid black;
+flex-wrap: wrap;
+}
+
+.pie img{
+height: 100px;
+margin-top: 30px;
+margin-left: 10px;
+}
+
+.pie1 h3{
+margin-top: 30px;
+font-family: 'Poppins', sans-serif;
+font-size: 22px;
+
+}
+
+.pie div.pie1{
+display: flex;
+flex-direction: column;
+width: 22%;
+}
+
+.pie1 div{
+display: flex;
+font-weight: 900;
+align-items: center;
+}
+
+.pie p{
+line-height: 20px;
+font-size: 15px;
+font-family: 'Poppins', sans-serif;
+margin-left: 5px;
+}
+
+.pie2 i{
+font-size: 30px;
+color: black;
+}
+
+.pie2{
+display: flex;
+flex-direction: column;
+}
+
+.pie2 a{
+text-decoration: unset;
+margin-top: 30px;
+margin-left: 90px;
+}
+
+
+
+
+
+
+/* ACA COMIENZA LA PAGINA CONTACTO*/
+
+.fotoContacto{
+width: 100%;
+background-image: url(../public/Image/fondo1.jpg);
+height: 468px;
+position: relative;
+text-align: center;
+}
+
+.enviar2{
+font-size: 30px;
+width: 15%;
+margin-left: 5.5%;
+margin-top: 1%;
+}
+
+
+.fotoContacto h3{
+font-size: 130px;
+color: #00ADEF;
+opacity: 0;
+display: inline-block;
+  animation-name: caida;
+  animation-delay: 1s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+.fotoContacto i{
+font-size: 50px;
+color: white;
+position: absolute;
+top: 350px;
+left: 48%;
+
+}
+
+.contacForm1{
+display: flex;
+justify-content: center;
+margin-bottom: 100px;
+}
+
+.contacForm h4{
+margin-left: 10%;
+font-size: 50px;
+margin-bottom: 5px;
+margin-top: 30px; 
+text-decoration: underline;
+}
+
+.contacForm1 div.hijo1{
+width: 45%;
+}
+
+textarea{
+width: 80%;
+height: 60px;
+overflow: auto;
+margin-left: 40px;
+letter-spacing: 2px;
+font-size: 20px;
+margin-top: 30px;
+}
+
+.contacForm1 div.hijo1 input{
+display: block;
+margin-left: 40px;
+width: 80%;
+height: 25px;
+margin-top: 30px;
+letter-spacing: 2px;
+font-size: 20px;
+}
+
+
+
+
+.contacForm1 div.hijo2{
+display: flex;
+flex-wrap: wrap;
+width: 20%;}
+
+.contacForm1 div.hijo2 div{
+display: flex;
+align-items: center;
+}
+
+span.listaIconos{
+text-decoration: underline;
+}
+
+.contacForm1 div.hijo2 i{
+color: #00ACEE;
+margin-right: 15px;
+margin-left: 10px;
+font-size: 30px;
+}
+
+.contacForm1 div.hijo2 .titulo p{
+font-size: 50px;
+margin-bottom: 20px;
+margin-top: 5px;
+
+}
+
+
+
+/* ACA ARRANCA LA SECCION SERVICIOS*/
+
+.PresentacionFoto{
+background-image: url(../public/Image/Presentacion.jpg);
+height: 370px;
+background-attachment: fixed;
+width: 100%;}
+
+.PresentacionTitulo{
+display: flex;
+justify-content: center;
+height: 370px;
+}
+
+.PresentacionTitulo h1{
+color: #00ADEF;
+font-size: 130px;
+letter-spacing: 5px;
+}
+
+.serviciosCuerpo{
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+padding-top: 150px;
+margin-bottom: 150px;
+}
+
+.serviciosCuerpo div.serviciosCuerpo-1{
+width: 20%;
+height: 100%;
+display: flex;
+flex-direction: column;
+}
+
+.serviciosCuerpo div.serviciosCuerpo-2{
+width: 50%;
+}
+
+.serviciosCuerpo div.serviciosCuerpo-2 h2{
+text-align: center;
+font-size: 35px;
+}
+
+.serviciosCuerpo div.serviciosCuerpo-2 img{
+width: 100%;
+}
+
+.serviciosCuerpo div.serviciosCuerpo-2 .img2{
+width: 50%;
+margin-top: 50px;
+margin-left: 100px;
+}
+
+.serviciosCuerpo div.serviciosCuerpo-1 a{
+height: 35px;
+width: 80%;
+font-weight: 900;
+background-color: #00ADEF;
+color: white;
+text-align: center;
+padding: 15px;
+margin-bottom: 15px;
+font-size: 110%;
+text-decoration: unset;
+border: 2px solid black;
+border-radius: 15%;
+}
+
+.servicios2p{
+font-size: 25px;
+text-align: justify;
+}
+
+.servicios3lista li{
+font-size: 25px;
+line-height: 50px;
+}
+
+.serviciosCuerpo div.serviciosCuerpo-2 div{
+float: left;
+width: 50%;
+}
+
+.serviciosCuerpo div.serviciosCuerpo-2 div p{
+font-size: 15px;
+color: gray;
+margin-top: 3px;
+}
+
+.serviciosCuerpo div.serviciosCuerpo-2 div img{
+width: 70%;
+}
+
+
+
+
+/* ACA COMIENZA LA SECCION QUIENES SOMOS*/
+
+.QS{
+
+height: auto;
+background-image: url(../public/Image/quienes2.jpg);
+}
+
+.QS-img{
+position: absolute;
+width: 100%;
+height: 100%;
+z-index: -1;
+}
+
+.QS .QS-div{
+margin-left: auto;
+margin-right: auto;
+height: 100%;
+width: 70%;
+display: flex;
+padding-top: 75px;
+padding-bottom: 75px;
+
+}
+
+.QS div img{
+height: 30%;
+width: 30%;
+border-radius: 20px;
+align-self: center;
+}
+
+.QS-div2{
+border-left: 18px solid greenyellow;
+border-radius: 5px;
+margin-left: 20px;
+height: 100%;
+}
+
+.QS-div3{
+border-radius: 5px;
+background-color: black;
+color: white;
+height: 100%;
+opacity: 0.5;
+
+}
+
+.QS-div3 p{
+opacity: 1;
+margin-bottom: 0px;
+padding-left: 30px;
+padding-bottom: 20px;
+}
+
+.QS-div3 h3{
+opacity: 1;
+padding-top: 20px;
+padding-left: 30px;
+margin-top: 0;
+font-size: 160%;
+}
+
+.QS-div3 h2{
+opacity: 1;
+padding-left: 30px;
+margin-top: 0;
+font-size: 280%;
+}
+
+.pieQ{
+width: 100%;
+position: relative;
+height: 400px;
+background-color: #E6E6E6;
+display: flex;
+height: 100%;
+border-top: 2px solid black;
+flex-wrap: wrap;
+}
+
+.pieQ p{
+line-height: 20px;
+font-size: 15px;
+font-family: 'Poppins', sans-serif;
+margin-left: 5px;
+}
+
+.pieQ img{
+height: 100px;
+margin-top: 30px;
+margin-left: 10px;
+}
+
+.pieQ div.pie1{
+display: flex;
+flex-direction: column;
+width: 22%;
+}
+
+/* efectos hover de aca en adelante */
+
+
+.nav a:hover{
+color: #00ADEF;
+transition: color 1s ease;
+letter-spacing: 2px;
+}
+
+.servicios span:hover{
+background-color: black;
+}
+
+.fotoGrande div.DivFG1 p.nuestrosServicios:hover{
+background-color: #CFAA55;
+transition: all 1.5s ease;
+}
+
+.pie2 i:hover{
+color: #00ADEF;
+transition: color 1s ease;
+}
+
+.serviciosCuerpo div.serviciosCuerpo-1 a:hover{
+background-color: #C2E7FF;
+}
+
+.WA:hover{
+  animation-name: boton;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+
+
+@keyframes titulo2{
+
+from{
+  opacity: 0;
+}
+
+to{
+  opacity: 1;
+}
+}
+
+@keyframes desliza{
+
+from{
+  opacity: 0;
+  margin-left: 0px;
+
+}
+
+to{
+  opacity: 1;
+  margin-left: 80px;
+}
+}
+
+@keyframes deslizaArriba{
+
+0%{
+  opacity: 0;
+
+}
+
+100%{
+  opacity: 1;
+  transform: translate(0px, -20px);
+
+
+}
+}
+
+@keyframes caida{
+
+from{
+  opacity: 0;
+  margin-top: 45px;
+
+}
+
+to{
+  opacity: 1;
+  margin-top: 150px;
+}
+}
+
+@keyframes caida2{
+
+from{
+  opacity: 0;
+  top: 600px;
+
+}
+
+to{
+  opacity: 1;
+  top: 650px;
+}
+}
+
+@keyframes boton{
+from{
+  transform: scale(1);
+}
+
+to{
+  transform: scale(1.1);
+}
+}
+
