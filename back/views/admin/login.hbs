@@ -1,0 +1,15 @@
+<div class="contenedor-login">
+	<h1 class="login">LOGIN</h1>
+    <div class="contenedor-recuadro">	
+       <form action="/admin/login" method="post"> 	
+		<label class="label">Usuario:</label>
+        <input type="text" name="usuario" class="input1"><br>
+		<label class="label2">Pass:</label>
+        <input type="password" name="password" class="input1 pas"><br><br>
+		<button type="submit" class="boton-enviar">Enviar</button>
+       </form>
+       {{#if error}} 
+        <p>Usuario y/o contraseña incorrectas</p>
+        {{/if}}
+    </div>
+</div>

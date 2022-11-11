@@ -1,0 +1,29 @@
+<div class="contenedor-novedades">
+    <h1 class="novedades-bienvenida">Bienvenido {{persona}}</h1>
+    <button type="submit" class="boton-cerrar"><a class="cerrarSesion" href="/admin/login/logout"> Cerrar Sesion </a></button>
+    <h2 class="novedades-bienvenido">Agregar Novedad</h2>
+    <button type="submit" class="boton-cerrar"><a href="/admin/novedades/agregar" class="cerrarSesion"> Nuevo + </a></button>
+<table class="tabla">
+    <thead class="tablaCabeza">
+    <tr>
+      <th scope="col" class="thN">Nº</th>
+      <th scope="col" class="thT">Titulo</th>
+      <th scope="col">Copete</th>
+      <th scope="col" class="thC">Cuerpo</th>
+      <th scope="col" class="thA">Acciones</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{#each novedades}}
+    <tr>
+      <th scope="row">{{id}}</th>
+      <td><textarea>{{Titulo}}</textarea></td>
+      <td><textarea>{{Copete}}</textarea></td>
+      <td><textarea>{{Cuerpo}}</textarea></td>
+      <td><a href="/admin/novedades/eliminar/{{id}}"><i class="fa-solid fa-trash acciones"></i>
+      </a><a href="/admin/novedades/modificar/{{id}}"><i class="fa-solid fa-pencil acciones"></i></a></td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
+</div>
