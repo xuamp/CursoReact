@@ -10,6 +10,7 @@
       <th scope="col" class="thT">Titulo</th>
       <th scope="col">Copete</th>
       <th scope="col" class="thC">Cuerpo</th>
+      <th scope="col" class="thI">Imagen</th>
       <th scope="col" class="thA">Acciones</th>
     </tr>
   </thead>
@@ -19,7 +20,8 @@
       <th scope="row">{{id}}</th>
       <td><textarea>{{Titulo}}</textarea></td>
       <td><textarea>{{Copete}}</textarea></td>
-      <td><textarea>{{Cuerpo}}</textarea></td>
+      <td><textarea>{{Cuerpo}}</textarea></td>     
+      <td>{{{imagen}}}</td>
       <td><a href="/admin/novedades/eliminar/{{id}}"><i class="fa-solid fa-trash acciones"></i>
       </a><a href="/admin/novedades/modificar/{{id}}"><i class="fa-solid fa-pencil acciones"></i></a></td>
     </tr>

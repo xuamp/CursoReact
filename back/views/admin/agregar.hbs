@@ -1,11 +1,13 @@
 <div class="contenedor-login">
 	<h1 class="login">Agregar Novedad</h1>
     <div class="contenedor-agregar">	
-       <form action="/admin/novedades/agregar" method="post"> 	
+       <form action="/admin/novedades/agregar" method="post" enctype="multipart/form-data"> 	
 		<label class="label1">Titulo:</label>
         <textarea type="text" name="Titulo" class="input3" placeholder="Titulo"></textarea><br>
 		<label class="label1">Copete:</label>
         <textarea type="text" name="Copete" class="input3" placeholder="Copete"></textarea><br><br>
+        <label class="label1">Imagen:</label>
+        <input type="file" name="imagen" class="input2 file" id="imagen"></input><br><br>
         <label class="label1">Cuerpo:</label>
         <textarea type="text" name="Cuerpo" class="input2" placeholder="Cuerpo"></textarea><br><br>
 		<button type="submit" class="boton-enviar">Enviar</button>

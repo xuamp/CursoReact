@@ -34,6 +34,15 @@ html {
   padding-left: 22px;
 }
 
+.label3{
+  font-size: 23px;
+  text-align: start;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 22px;
+}
+
 .label{
   font-size: 23px;
   margin-top: 20px;
@@ -103,10 +112,27 @@ html {
     margin-bottom: 40px;
     }
 
+   .eliminar{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: start;
+    margin-bottom: 30px;
+   } 
+
+
   .input2{
     width: 70%;
     height: 100px;
     margin-bottom: 40px;
+    }
+
+    .file{
+      font-size: 20px;
+      height: auto;
+      margin-top: 5px;
+      margin-bottom: 0;
+      padding: 0;
     }
 
 body{
@@ -251,6 +277,10 @@ textarea{
 
 .thC{
   width: 45%;
+}
+
+.thI{
+  width: 8%;
 }
 
 .thN{

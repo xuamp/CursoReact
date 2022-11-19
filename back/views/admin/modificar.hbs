@@ -1,12 +1,19 @@
 <div class="contenedor-login">
 	<h1 class="login">Modificar</h1>
     <div class="contenedor-agregar">	
-       <form action="/admin/novedades/modificar" method="post"> 
+       <form action="/admin/novedades/modificar" method="post" enctype="multipart/form-data"> > 
        <input type="hidden" value="{{novedad.id}}" name="id">	
 		<label class="label1">Titulo:</label>
         <textarea type="text" name="Titulo" class="input3">{{novedad.Titulo}}</textarea><br>
 		<label class="label1">Copete:</label>
         <textarea type="text" name="Copete" class="input3">{{novedad.Copete}}</textarea><br><br>
+        <label class="label1">Imagen:</label>
+        <input type="file" name="imagen" class="input2 file" id="imagen"></input><br><br>
+        <div class="eliminar">
+            <input type="checkbox" name="img_delete" id="img_delete" value="1" class="input4">
+            <label class="label3">Eliminar imagen actual</label>
+            <input type="hidden" name = "img_original" value="{{novedad.img_id}}">
+        </div>
         <label class="label1">Cuerpo:</label>
         <textarea type="text" name="Cuerpo" class="input2">{{novedad.Cuerpo}}</textarea><br><br>
 		<button type="submit" class="boton-enviar">Modificar</button>
