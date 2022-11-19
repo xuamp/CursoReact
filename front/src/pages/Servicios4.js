@@ -20,7 +20,7 @@ const Servicios4 = (props) => {
           <Link to="/Servicios4">LEGISLACION</Link>
           <Link to="/Servicios5">PROCESOS MENORES</Link>
         </div>
-        <div class="serviciosCuerpo-2">
+        <div className="serviciosCuerpo-2">
           <h2>Legislacion</h2>
           <p>
             De acuerdo con la Res. ex-SIC Nº 130/92 y su modificatoria Res.

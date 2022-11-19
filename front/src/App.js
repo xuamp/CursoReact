@@ -12,6 +12,7 @@ import Servicios2 from './pages/Servicios2';
 import Servicios3 from './pages/Servicios3';
 import Servicios4 from './pages/Servicios4';
 import Servicios5 from './pages/Servicios5';
+import Novedades from './pages/Novedades';
 
 
 function App() {
@@ -23,19 +24,13 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="Nosotros" element={<Nosotros />} />
             <Route path="Contacto" element={<Contacto />} />
+            <Route path='Novedades' element={<Novedades />} />
             <Route path="Servicios" element={<Servicios/>} />
             <Route path="Servicios1" element={<Servicios1/>} />
             <Route path="Servicios2" element={<Servicios2/>} />
             <Route path="Servicios3" element={<Servicios3/>} />
             <Route path="Servicios4" element={<Servicios4/>} />
             <Route path="Servicios5" element={<Servicios5/>} />
-
-
-
-
-          
-            
-
         </Routes>
         <Footer />
         </BrowserRouter> 

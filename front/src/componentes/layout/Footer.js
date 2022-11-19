@@ -9,15 +9,15 @@ const Footer = (props) => {
 		<div className="pie1">
 			<h3>Dock Motion Argentina</h3>
 			<div>
-				<i class="fa-solid fa-envelope"></i>
+				<i className="fa-solid fa-envelope"></i>
 				<p>Info@dockmotion.com</p>
 			</div>
 			<div>
-				<i class="fa-solid fa-location-dot"></i>
+				<i className="fa-solid fa-location-dot"></i>
 				<p>Buenos Aires<br></br> Av. Corrientes 980, CABA<br></br> Argentina</p>
 			</div>
 			<div>
-				<i class="fa-solid fa-phone"></i>
+				<i className="fa-solid fa-phone"></i>
 				<p>Whatsapp: +54 9 114401-8119</p>
 			</div>
 		</div>

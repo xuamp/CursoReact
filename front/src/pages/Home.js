@@ -5,7 +5,7 @@ const Home = (props) => {
   return (
     <div>
       <section className="fotoGrande">
-        <div class="DivFG1">
+        <div className="DivFG1">
           <img src="Image/containers.jpeg" alt="sisi"></img>
           <h2>
             Soluciones Logisticas<br></br> Integrales
@@ -22,7 +22,7 @@ const Home = (props) => {
         </div>
         <div className="DivFG2">
           <div className="DivFG-C">
-            <i class="fa-solid fa-globe"></i>
+            <i className="fa-solid fa-globe"></i>
             <div>
               <h3>Comercio Exterior</h3>
               <p>
@@ -44,7 +44,7 @@ const Home = (props) => {
             </div>
           </div>
           <div className="DivFG-C">
-            <i class="fa-solid fa-magnifying-glass-chart"></i>
+            <i className="fa-solid fa-magnifying-glass-chart"></i>
             <div>
               <h3>Estudio aduanero</h3>
               <p>
@@ -96,7 +96,7 @@ const Home = (props) => {
           </div>
         </div>
       </section>
-      <section class="servicios">
+      <section className="servicios">
         <br></br>
         <br></br>
         <br></br>
