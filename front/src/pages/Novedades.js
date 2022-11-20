@@ -4,8 +4,8 @@ import NovedadItem from '../componentes/novedades/NovedadItem'
 
 const Novedades = (props) => {
 
-    const { loading, setLoading } = useState(false);
-    const { novedades, setNovedades } = useState([]);
+    const  [ loading, setLoading  ] = useState(false);
+    const  [ novedades, setNovedades ] = useState([]);
 
     useEffect( () => {
         const cargarNovedades = async () => {
@@ -16,12 +16,12 @@ const Novedades = (props) => {
         };
 
         cargarNovedades ();
-    }, []);
+    }, [setLoading, setNovedades]);
 
 
     return (
         <div className='dinamico'>
-            <h2> Novedades </h2>
+            <h3> Novedades </h3>
 
             { loading ? (<p> Cargando .... </p>)
             : ( novedades.map( item => <NovedadItem key={item.id} titulo={item.Titulo} copete={item.Copete} imagen={item.imagen} cuerpo={item.Cuerpo} />))}

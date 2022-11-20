@@ -8,10 +8,10 @@ const NovedadItem = (props) => {
 
     return (
         <div className='novedades'>
-            <h1>{titulo}</h1>
-            <h2>{copete}</h2>
+            <h1 className='justi'>{titulo}</h1>
             <img src={imagen} alt = 'dale'/>
-            <div dangerouslySetInnerHTML={{ __html: cuerpo}}></div>
+            <h2 className='justi'>{copete}</h2>
+            <div className='justi'  dangerouslySetInnerHTML={{ __html: cuerpo}}></div>
         </div>
     )
 }

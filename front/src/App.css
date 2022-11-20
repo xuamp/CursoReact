@@ -828,6 +828,39 @@ background-color: #C2E7FF;
   animation-fill-mode: forwards;
 }
 
+.novedades{
+  height: auto;
+  padding: 40px;
+  width: 60%;
+  text-align: center;
+  background-color: aliceblue;
+  border: 2px solid black;
+  border-radius: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.justi{
+  text-align: justify;
+}
+
+.dinamico h3{
+  text-align: center;
+  font-size: 70px;
+  text-decoration: underline;
+}
+
+.novedades h2{
+  font-size: 23px;
+}
+
+.novedades h1{
+ font-size: 40px;
+ text-decoration: underline;
+}
+
 
 
 @keyframes titulo2{
